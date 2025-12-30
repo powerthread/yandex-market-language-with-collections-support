@@ -45,7 +45,7 @@ exports[`forNodeEach function should error on non-array 2`] = `"[tcomb] Invalid 
 exports[`forNodeEach function should invoke callback for each element in array for node 1`] = `
 "<?xml version=\\"1.0\\"?>
 <root>
-  <0>one</0>
-  <1>two</1>
+  <item-0>one</item-0>
+  <item-1>two</item-1>
 </root>"
 `;
