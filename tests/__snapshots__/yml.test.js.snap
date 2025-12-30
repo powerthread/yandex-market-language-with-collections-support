@@ -2,57 +2,38 @@
 
 exports[`yml function \`create\` method should create YML 1`] = `
 XMLElement {
-  "attributes": Object {},
+  "attribs": Object {},
+  "baseURI": null,
   "children": Array [
     XMLElement {
-      "attributes": Object {},
+      "attribs": Object {},
+      "baseURI": null,
       "children": Array [
-        XMLText {
-          "children": Array [],
-          "options": Object {
-            "encoding": "UTF-8",
-            "version": "1.0",
-            "writer": XMLStringWriter {
-              "allowEmpty": false,
-              "dontprettytextnodes": 0,
-              "indent": "",
-              "newline": "",
-              "newlinedefault": "",
-              "offset": 0,
-              "pretty": false,
-              "prettydefault": false,
-              "spacebeforeslash": "",
-            },
-          },
-          "parent": [Circular],
-          "stringify": XMLStringifier {
-            "assertLegalChar": [Function],
-            "noDoubleEncoding": undefined,
-          },
-          "value": "BestSeller",
-        },
+        BestSeller,
       ],
       "name": "name",
       "options": Object {
         "encoding": "UTF-8",
         "version": "1.0",
         "writer": XMLStringWriter {
-          "allowEmpty": false,
-          "dontprettytextnodes": 0,
-          "indent": "",
-          "newline": "",
-          "newlinedefault": "",
-          "offset": 0,
-          "pretty": false,
-          "prettydefault": false,
-          "spacebeforeslash": "",
+          "options": Object {},
         },
       },
       "parent": [Circular],
+      "schemaTypeInfo": null,
       "stringify": XMLStringifier {
         "assertLegalChar": [Function],
-        "noDoubleEncoding": undefined,
+        "assertLegalName": [Function],
+        "options": Object {
+          "encoding": "UTF-8",
+          "version": "1.0",
+          "writer": XMLStringWriter {
+            "options": Object {},
+          },
+        },
       },
+      "type": 1,
+      "value": null,
     },
   ],
   "name": "shop",
@@ -60,97 +41,120 @@ XMLElement {
     "encoding": "UTF-8",
     "version": "1.0",
     "writer": XMLStringWriter {
-      "allowEmpty": false,
-      "dontprettytextnodes": 0,
-      "indent": "",
-      "newline": "",
-      "newlinedefault": "",
-      "offset": 0,
-      "pretty": false,
-      "prettydefault": false,
-      "spacebeforeslash": "",
+      "options": Object {},
     },
   },
   "parent": XMLElement {
-    "attributes": Object {
+    "attribs": Object {
       "date": XMLAttribute {
+        "isId": false,
         "name": "date",
         "options": Object {
           "encoding": "UTF-8",
           "version": "1.0",
           "writer": XMLStringWriter {
-            "allowEmpty": false,
-            "dontprettytextnodes": 0,
-            "indent": "",
-            "newline": "",
-            "newlinedefault": "",
-            "offset": 0,
-            "pretty": false,
-            "prettydefault": false,
-            "spacebeforeslash": "",
+            "options": Object {},
           },
         },
+        "parent": [Circular],
+        "schemaTypeInfo": null,
         "stringify": XMLStringifier {
           "assertLegalChar": [Function],
-          "noDoubleEncoding": undefined,
+          "assertLegalName": [Function],
+          "options": Object {
+            "encoding": "UTF-8",
+            "version": "1.0",
+            "writer": XMLStringWriter {
+              "options": Object {},
+            },
+          },
         },
+        "type": 2,
         "value": "2017-09-07 00:00",
       },
     },
+    "baseURI": null,
     "children": Array [
       [Circular],
     ],
     "documentObject": XMLDocument {
+      "baseURI": null,
       "children": Array [
         XMLDeclaration {
+          "baseURI": null,
           "children": Array [],
           "encoding": "UTF-8",
           "options": Object {
             "encoding": "UTF-8",
             "version": "1.0",
             "writer": XMLStringWriter {
-              "allowEmpty": false,
-              "dontprettytextnodes": 0,
-              "indent": "",
-              "newline": "",
-              "newlinedefault": "",
-              "offset": 0,
-              "pretty": false,
-              "prettydefault": false,
-              "spacebeforeslash": "",
+              "options": Object {},
             },
           },
           "parent": [Circular],
           "stringify": XMLStringifier {
             "assertLegalChar": [Function],
-            "noDoubleEncoding": undefined,
+            "assertLegalName": [Function],
+            "options": Object {
+              "encoding": "UTF-8",
+              "version": "1.0",
+              "writer": XMLStringWriter {
+                "options": Object {},
+              },
+            },
           },
+          "type": 201,
+          "value": null,
           "version": "1.0",
         },
         [Circular],
       ],
-      "isDocument": true,
+      "documentURI": null,
+      "domConfig": XMLDOMConfiguration {
+        "defaultParams": Object {
+          "canonical-form": false,
+          "cdata-sections": false,
+          "comments": false,
+          "datatype-normalization": false,
+          "element-content-whitespace": true,
+          "entities": true,
+          "error-handler": XMLDOMErrorHandler {},
+          "infoset": true,
+          "namespace-declarations": true,
+          "namespaces": true,
+          "normalize-characters": false,
+          "schema-location": "",
+          "schema-type": "",
+          "split-cdata-sections": true,
+          "validate": false,
+          "validate-if-schema": false,
+          "well-formed": true,
+        },
+        "params": Object {},
+      },
+      "name": "#document",
       "options": Object {
         "encoding": "UTF-8",
         "version": "1.0",
         "writer": XMLStringWriter {
-          "allowEmpty": false,
-          "dontprettytextnodes": 0,
-          "indent": "",
-          "newline": "",
-          "newlinedefault": "",
-          "offset": 0,
-          "pretty": false,
-          "prettydefault": false,
-          "spacebeforeslash": "",
+          "options": Object {},
         },
       },
       "parent": null,
       "rootObject": [Circular],
       "stringify": XMLStringifier {
         "assertLegalChar": [Function],
-        "noDoubleEncoding": undefined,
+        "assertLegalName": [Function],
+        "options": Object {
+          "encoding": "UTF-8",
+          "version": "1.0",
+          "writer": XMLStringWriter {
+            "options": Object {},
+          },
+        },
       },
+      "type": 9,
+      "value": null,
     },
     "isRoot": true,
     "name": "yml_catalog",
@@ -158,78 +162,117 @@ XMLElement {
       "encoding": "UTF-8",
       "version": "1.0",
       "writer": XMLStringWriter {
-        "allowEmpty": false,
-        "dontprettytextnodes": 0,
-        "indent": "",
-        "newline": "",
-        "newlinedefault": "",
-        "offset": 0,
-        "pretty": false,
-        "prettydefault": false,
-        "spacebeforeslash": "",
+        "options": Object {},
       },
     },
     "parent": XMLDocument {
+      "baseURI": null,
       "children": Array [
         XMLDeclaration {
+          "baseURI": null,
           "children": Array [],
           "encoding": "UTF-8",
           "options": Object {
             "encoding": "UTF-8",
             "version": "1.0",
             "writer": XMLStringWriter {
-              "allowEmpty": false,
-              "dontprettytextnodes": 0,
-              "indent": "",
-              "newline": "",
-              "newlinedefault": "",
-              "offset": 0,
-              "pretty": false,
-              "prettydefault": false,
-              "spacebeforeslash": "",
+              "options": Object {},
             },
           },
           "parent": [Circular],
           "stringify": XMLStringifier {
             "assertLegalChar": [Function],
-            "noDoubleEncoding": undefined,
+            "assertLegalName": [Function],
+            "options": Object {
+              "encoding": "UTF-8",
+              "version": "1.0",
+              "writer": XMLStringWriter {
+                "options": Object {},
+              },
+            },
           },
+          "type": 201,
+          "value": null,
           "version": "1.0",
         },
         [Circular],
       ],
-      "isDocument": true,
+      "documentURI": null,
+      "domConfig": XMLDOMConfiguration {
+        "defaultParams": Object {
+          "canonical-form": false,
+          "cdata-sections": false,
+          "comments": false,
+          "datatype-normalization": false,
+          "element-content-whitespace": true,
+          "entities": true,
+          "error-handler": XMLDOMErrorHandler {},
+          "infoset": true,
+          "namespace-declarations": true,
+          "namespaces": true,
+          "normalize-characters": false,
+          "schema-location": "",
+          "schema-type": "",
+          "split-cdata-sections": true,
+          "validate": false,
+          "validate-if-schema": false,
+          "well-formed": true,
+        },
+        "params": Object {},
+      },
+      "name": "#document",
       "options": Object {
         "encoding": "UTF-8",
         "version": "1.0",
         "writer": XMLStringWriter {
-          "allowEmpty": false,
-          "dontprettytextnodes": 0,
-          "indent": "",
-          "newline": "",
-          "newlinedefault": "",
-          "offset": 0,
-          "pretty": false,
-          "prettydefault": false,
-          "spacebeforeslash": "",
+          "options": Object {},
         },
       },
       "parent": null,
       "rootObject": [Circular],
       "stringify": XMLStringifier {
         "assertLegalChar": [Function],
-        "noDoubleEncoding": undefined,
+        "assertLegalName": [Function],
+        "options": Object {
+          "encoding": "UTF-8",
+          "version": "1.0",
+          "writer": XMLStringWriter {
+            "options": Object {},
+          },
+        },
       },
+      "type": 9,
+      "value": null,
     },
+    "schemaTypeInfo": null,
     "stringify": XMLStringifier {
       "assertLegalChar": [Function],
-      "noDoubleEncoding": undefined,
+      "assertLegalName": [Function],
+      "options": Object {
+        "encoding": "UTF-8",
+        "version": "1.0",
+        "writer": XMLStringWriter {
+          "options": Object {},
+        },
+      },
     },
+    "type": 1,
+    "value": null,
   },
+  "schemaTypeInfo": null,
   "stringify": XMLStringifier {
     "assertLegalChar": [Function],
-    "noDoubleEncoding": undefined,
+    "assertLegalName": [Function],
+    "options": Object {
+      "encoding": "UTF-8",
+      "version": "1.0",
+      "writer": XMLStringWriter {
+        "options": Object {},
+      },
+    },
   },
+  "type": 1,
+  "value": null,
 }
 `;
 
@@ -300,11 +343,9 @@ exports[`yml function should work correctly with max input 1`] = `
         <delivery-options>
           <option cost=\\"900\\" days=\\"1-20\\" order-before=\\"6\\"/>
         </delivery-options>
-        <description>
-          <![CDATA[
+        <description><![CDATA[
         <p>Отличный подарок для любителей венских вафель.</p>
-      ]]>
-        </description>
+      ]]></description>
         <sales_notes>Необходима предоплата.</sales_notes>
         <min-quantity>1</min-quantity>
         <step-quantity>1</step-quantity>
@@ -344,11 +385,9 @@ exports[`yml function should work correctly with max input 1`] = `
         <delivery-options>
           <option cost=\\"900\\" days=\\"1-20\\" order-before=\\"6\\"/>
         </delivery-options>
-        <description>
-          <![CDATA[
+        <description><![CDATA[
         <p>Отличный подарок для любителей венских вафель.</p>
-      ]]>
-        </description>
+      ]]></description>
         <sales_notes>Необходима предоплата.</sales_notes>
         <min-quantity>1</min-quantity>
         <step-quantity>1</step-quantity>
@@ -374,21 +413,17 @@ exports[`yml function should work correctly with max input 1`] = `
         <name>test-collection1</name>
         <url>http://best.seller.ru/test-collection1</url>
         <picture>http://best.seller.ru/img/large_123.jpg</picture>
-        <description>
-          <![CDATA[
+        <description><![CDATA[
       <p>Some text.</p>
-    ]]>
-        </description>
+    ]]></description>
       </collection>
       <collection id=\\"321\\">
         <name>test-collection2</name>
         <url>http://best.seller.ru/test-collection2</url>
         <picture>http://best.seller.ru/img/large_321.jpg</picture>
-        <description>
-          <![CDATA[
+        <description><![CDATA[
       <p>Some text.</p>
-    ]]>
-        </description>
+    ]]></description>
       </collection>
     </collections>
   </shop>
@@ -425,11 +460,9 @@ exports[`yml function should work correctly with min input 1`] = `
         <name>test-collection1</name>
         <url>http://best.seller.ru/test-collection1</url>
         <picture>http://best.seller.ru/img/large_123.jpg</picture>
-        <description>
-          <![CDATA[
+        <description><![CDATA[
       <p>Some text.</p>
-    ]]>
-        </description>
+    ]]></description>
       </collection>
     </collections>
   </shop>
